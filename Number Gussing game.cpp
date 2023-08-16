@@ -11,10 +11,10 @@ int main() {
   again:
   cout<<endl<<"Enter number b/w 1-100: ";
   cin>>n;
-  
+
   if(rn!=n){
     
-    rn > n ? cout<<"Two low! "<<rn-n<<endl : cout<<"Two high! "<<n-rn<<endl;
+    rn > n ? cout<<"Two low! "<<endl : cout<<"Two high! "<<endl;
     goto again;
     
   }else{
